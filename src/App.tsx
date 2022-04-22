@@ -26,7 +26,7 @@ function App() {
     return (
         <>
             <div className={'container'}>
-                    <input autoFocus type={"text"} value={result}/>
+                <input autoFocus type={"text"} value={result}/>
                 <div className={'keypad'}>
                     <button className={'clear'} name={'clear'} onClick={onClickClearHandler}>Clear</button>
                     <button name={'C'} onClick={onClickBackSpaceHandler}>C</button>
@@ -47,7 +47,7 @@ function App() {
                     <button name={'.'} onClick={onClickHandler}>.</button>
                     <button className={'result'} name={'='} onClick={onClickResultHandler}>=</button>
                     <button name={'**'} onClick={onClickHandler}>X<sup>2</sup></button>
-c                </div>
+                </div>
             </div>
         </>
     );
